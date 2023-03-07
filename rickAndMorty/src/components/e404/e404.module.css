@@ -1,0 +1,12 @@
+.divError {
+    background-color: transparent;
+    color: cadetblue;
+    max-width: 70%;
+    margin:auto;
+    padding: 3vw;
+    border-radius: 15%;
+}
+
+.img404 {
+    border-radius: 20%;
+}

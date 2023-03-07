@@ -1,0 +1,37 @@
+.form  {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2vw;
+    margin-right: 10vw;
+    margin-left: 10vw;
+}
+
+.frame {
+    background-color:rgb(11, 31, 53);
+    border-style: outset;
+    border-color: blueviolet;
+    border-radius: 20%;
+    margin: auto;
+    max-width: 40%;
+    padding: 5vw;
+}
+
+.title {
+    font-size: 3vw;
+    color:aqua;
+    margin: auto;
+}
+
+.inputForm {
+    background-color: aqua;
+}
+
+.submit {
+    background-color: aqua;
+    color:blueviolet;
+}
+
+.warning {
+    font-size: 1vw;
+    color: red;
+}

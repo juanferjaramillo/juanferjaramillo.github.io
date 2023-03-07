@@ -1,0 +1,14 @@
+.navBar {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 3vw;
+  border-color: grey;
+  border-style:outset;
+}
+
+@media (max-width: 720px) {
+    .navBar {
+        flex-direction: column;
+    }
+}

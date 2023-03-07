@@ -1,0 +1,149 @@
+.cardCl {
+  display: flex;
+  flex-direction: column;
+  padding: 2vw;
+  background-image: url(https://wallpaper-mania.com/wp-content/uploads/2018/09/High_resolution_wallpaper_background_ID_77701888978.jpg);
+  border: 0.2vw solid darksalmon;
+  border-radius: 10%;
+  max-width: 30%;
+  margin: auto;
+  margin-bottom: 5%;
+  animation-name: expandCard;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+}
+
+@keyframes rotarCard {
+  0% {
+    transform: rotate(-0.3deg);
+  }
+  50% {
+    transform: rotate(0.6deg);
+  }
+  100% {
+    transform: rotate(-0.3deg);
+  }
+}
+
+@keyframes expandCard {
+  0% {
+    max-width: 1%;
+  }
+  100% {
+    max-width: 30%; 
+  }
+}
+
+.cardUnmountCl {
+  display: flex;
+  flex-direction: column;
+  padding: 2vw;
+  background-image: url(https://wallpaper-mania.com/wp-content/uploads/2018/09/High_resolution_wallpaper_background_ID_77701888978.jpg);
+  border: 0.2vw solid darksalmon;
+  border-radius: 10%;
+  max-width: 30%;
+  margin: auto;
+  margin-bottom: 5%;
+  animation-name: rotarCard;
+  animation-duration: 0.5s;
+  animation-iteration-count: infinite;
+  animation-name: shrinkCard;
+  animation-duration: 0.5s;
+  animation-iteration-count: 1;
+}
+
+@keyframes shrinkCard {
+  0% {
+    max-width: 30%;
+  }
+  100% {
+    max-width: 1%; 
+  }
+}
+
+.imgChar {
+  border: 0.2vw solid darksalmon;
+  border-radius: 50%;
+  max-width:25vw;
+}
+
+.imgChar:hover {
+  cursor: pointer;
+  animation-name: rotarPic;
+  animation-duration: 0.5s;
+  animation-iteration-count: 1;
+}
+
+@keyframes rotarPic {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(720deg);
+  }
+}
+
+.botonX {
+  margin-top: 1%;
+  margin-bottom: 3%;
+  margin-left: 90%;
+  width: 3vw;
+  height: 3vw;
+  min-width: fit-content;
+  border-radius: 50%;
+  border-color: lightblue;
+  color: lightblue;
+  background-color: rgb(175, 93, 10);
+  font-size: 2vw;
+}
+
+.botonX:hover {
+  cursor: pointer;
+}
+
+.titulo2 {
+  color: #d0f4de;
+  font-size: 2vw;
+  margin-top: 2vw;
+}
+
+.tituloName {
+  color: darkmagenta;
+  font-size: 2vw;
+  rotate: -45deg;
+  margin-right: 60%;
+  background-color: #e4c1f9;
+  border-radius: 30%;
+}
+
+@media (max-width: 720px) {
+  .titulo2 {
+    font-size: 3vw;
+    margin-top: 5vw;
+  }
+  .tituloName {
+    font-size: 3vw;
+    margin-right: 50%;
+  }
+  .botonX {
+    font-size: 3vw;
+    width: 6vw;
+    height: 6vw;
+    border-width: 0.3vw;
+  }
+  .cardCl {
+    padding: 5vw;
+  }
+}
+
+.id {
+  color: #d0f4de;
+  font-size: 1.3vw;
+  margin-right: 80%;
+}
+
+.fav {
+  max-width: 20%;
+  border-radius: 20%;
+  background-color:rgb(47, 47, 47);
+}

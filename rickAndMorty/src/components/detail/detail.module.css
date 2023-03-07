@@ -1,0 +1,30 @@
+.contenedor {
+    display: flex;
+    background-color: rgba(102, 180, 203, 0.4);
+    margin: auto;
+    max-width: 80%;
+    justify-content: space-around;
+    padding: 2vw;
+    border-radius: 2vw;
+    box-shadow: 0px 0px 10px rgb(190, 222, 66);
+    color: rgb(190, 222, 66);
+}
+
+.imgDetail {
+    border-radius: 10%;
+}
+
+.contenedor {
+    animation: rotateDetail;
+    animation-duration: 1.3s;
+    animation-iteration-count: 1;
+}
+
+@keyframes rotateDetail {
+    0% {
+        transform: rotateX(0deg);
+    }
+    100% {
+        transform: rotateX(720deg);
+    }
+}

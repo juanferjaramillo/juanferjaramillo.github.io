@@ -1,0 +1,22 @@
+.colors {
+  color: #ff99c8; /* pink */
+  color: #fcf6bd; /* yellow */
+  color: #d0f4de; /* menta */
+  color: #e4c1f9; /* light purple */
+  color: #a9def9; /* blue */
+}
+.App {
+  text-align: center;
+  background-image: url(https://bestanimations.com/media/stars/500797702stars-sky-space-gif-13.gif);
+  background-size: contain;
+  min-height: 100vh;
+}
+.navbar {
+  display:flex;
+  justify-content: right;
+  max-height: 5vw;
+  align-items: center;
+  padding-right: 5vw;
+  padding-top: 1vw;
+  /* background-color: darkblue; */
+}

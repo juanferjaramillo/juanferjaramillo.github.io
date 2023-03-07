@@ -1,0 +1,7 @@
+.container {
+    background-color: rgb(12, 42, 42);
+    border-radius: 5%;
+    margin: auto;
+    max-width: 70%;
+    color:aqua;
+}

@@ -1,0 +1,23 @@
+.logo {
+    max-width: 30%;
+}
+.logo:hover {
+    animation-name: moverLogo;
+    animation-duration: 0.2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes moverLogo {
+    0% {
+      transform: rotate(0deg);
+    }
+    33% {
+      transform: rotate(-5deg);
+    }
+    66% {
+        transform: rotate(10deg);
+      }
+    100% {
+        transform: rotate(0deg);
+      }
+  }
